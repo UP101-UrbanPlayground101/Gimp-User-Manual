@@ -83,9 +83,9 @@ This section provides a brief introduction to the basic concepts and terminology
 Images
 
     Images are the basic entities used by GIMP. Roughly speaking, an “image” corresponds to a single file, such as a TIFF or JPEG file. You can also think of an image as corresponding to a single display window (although in truth it is possible to have multiple windows all displaying the same image). It is not possible to have a single window display more than one image, though, or for an image to have no window displaying it.
-
+    图片是GIMP中使用的一个基本实体. 粗略的说, 一个图片对应于一个单独的文件,例如一个TIFF或者一个JPEG文件. 你也可以认为一个图片相当于一个单独的显示窗口(虽然事实上可以有多个窗口显示同一个图片).但是不可能由一个窗口显示多个图片,或者没有窗口能显示一个图片.
     A GIMP image may be quite a complicated thing. Instead of thinking of it as a sheet of paper with a picture on it, think of it as more like a stack of sheets, called “layers”. In addition to a stack of layers, a GIMP image may contain a selection mask, a set of channels, and a set of paths. In fact, GIMP provides a mechanism for attaching arbitrary pieces of data, called “parasites”, to an image.
-
+    一个GIMP图片可能是一个结构复杂的东西. 要把它看成是称作图层的一堆纸,而不是一张带有图片的纸.除了图层,一个GIMP图片还可能包含选择蒙板,管道以及路径. 事实上GIMP提供了一个叫做寄生的机制来添加任意数据到一个图片中.
     In GIMP, it is possible to have many images open at the same time. Although large images may use many megabytes of memory, GIMP uses a sophisticated tile-based memory management system that allows GIMP to handle very large images gracefully. There are limits, however, and having more memory available may improve system performance.
 Layers
 
